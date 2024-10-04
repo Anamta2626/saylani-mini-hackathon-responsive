@@ -1,0 +1,122 @@
+/* Responsive styles for max-width: 450px */
+
+@media (max-width: 450px) {
+
+    nav .visible {
+        display: none;
+    }
+
+    nav .btn {
+        display: none;
+    }
+
+    .navbar img {
+        margin-right: 80px;
+        padding: 10px;
+        height: auto;
+        display: inline-block;
+    }
+
+    .fa-bars {
+        list-style-type: none;
+        padding-left: 140px;
+        display: inline;
+        visibility: visible;
+        font-size: 24px;
+        color: #000;
+    }
+    .res-navbar{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    img {
+        width: 100%;
+        max-width: 450px;
+        height: auto;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 20px;
+        margin: auto;
+    }
+
+    .hero-content,
+    .hero-image {
+        width: 100%;
+        margin-left: 0;
+        text-align: justify;
+    }
+
+    .hero-image {
+        padding-top: 20px;
+        width: 90%;
+        height: auto;
+    }
+
+    .hero-content h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+        line-height: 24px;
+        flex-wrap: wrap;
+    }
+
+    .brands {
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .brands img {
+        max-width: 80px;
+    }
+
+    .services {
+        text-align: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .process-cards {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .seo-card .seo-p,
+    .ppc-card .ppc-p {
+        padding-top: 60px;
+    }
+
+    .contact-section .container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contact-section .container .right-contact {
+        display: none;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    .right-contact {
+        justify-content: center;
+    }
+}
